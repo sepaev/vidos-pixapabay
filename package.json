@@ -1,0 +1,37 @@
+{
+  "name": "vidos-pixapabay",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://sepaev.github.io/vidos-pixapabay",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /vidos-pixapabay/",
+    "server": "json-server --watch db.json -p 4040 -d 300"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sepaev/vidos-pixapabay.git"
+  },
+  "keywords": [],
+  "author": "Ievhen Pavlovsky <sepaev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sepaev/vidos-pixapabay/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "debounce": "^1.2.1",
+    "json-server": "^0.16.3",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.0.1",
+    "simplelightbox": "^2.8.0"
+  }
+}
